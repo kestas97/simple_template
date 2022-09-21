@@ -1,0 +1,53 @@
+/*reser*/
+  *{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+/*nav section*/
+nav ul li{
+    color: white;
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid lightgray;
+    font-size: 1.2rem;
+}
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 0 90px;
+    top: 0;
+}
+nav ul{
+    margin: 9px 0;
+    padding: 0;
+}
+/*nav section ends*/
+
+body > div{
+  margin: 5% 150px;
+}
+body >div >div>span{
+    display: inline-block;
+    max-width: 49%;
+    padding: 0;
+    margin: 0;
+}
+p, h1{
+    padding: 20px;
+}
+body >div> div{
+    background-color: rgb(250, 243, 243);
+    margin: 10px 0;
+}
+  
